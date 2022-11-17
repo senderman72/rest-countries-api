@@ -87,6 +87,28 @@ a {
   }
 }
 
+@media only screen and (max-width: 675px) {
+  .flags-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .flag-box:hover {
+    animation: none;
+    width: 100vw;
+    text-align: unset;
+
+    transform: unset;
+  }
+  .flag-page button {
+    font-size: 20px;
+    padding: 20px 40px;
+    width: 360px;
+  }
+
+  .flag-page button:hover {
+    animation: unset;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .flags-container {
     display: flex;
@@ -99,7 +121,7 @@ a {
   .flag-box:hover {
     animation: none;
     width: 100vw;
-    text-align: none;
+    text-align: start;
 
     transform: none;
   }
