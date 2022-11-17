@@ -119,7 +119,7 @@ a {
   }
 
   .flag-box:hover {
-    padding: 8px;
+    padding: 10px;
     animation: none;
     width: 100vw;
     text-align: start;
