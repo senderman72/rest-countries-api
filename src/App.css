@@ -88,6 +88,12 @@ a {
   }
 }
 
+@media only screen and (max-width: 900px) {
+  .flags-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media only screen and (max-width: 675px) {
   .flags-container {
     grid-template-columns: repeat(2, 1fr);
