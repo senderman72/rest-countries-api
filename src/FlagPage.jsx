@@ -26,7 +26,7 @@ export default function FlagPage() {
         <h2>{flag.name.common}</h2>
         <p>Capital: {flag.capital[0]}</p>
         <p>Population: {flag.population}</p>
-        <p>Region {flag.region}</p>
+        <p>Region: {flag.region}</p>
         <p>Subregion: {flag.subregion}</p>
         <p>Timezone: {flag.timezones[0]}</p>
         <p>Traffic: {flag.car.side}</p>
