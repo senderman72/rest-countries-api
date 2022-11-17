@@ -109,7 +109,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   .flags-container {
     display: flex;
     flex-direction: column;
@@ -119,6 +119,7 @@ a {
   }
 
   .flag-box:hover {
+    padding: 8px;
     animation: none;
     width: 100vw;
     text-align: start;
